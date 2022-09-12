@@ -1,0 +1,27 @@
+.main-tracking-cards {
+    border: solid 2px red;
+    height: 100%;
+    width: auto;
+
+    display: grid;
+
+}
+
+.main-tracking-cards>.info-cards {
+    margin: 0;
+    gap: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.info-cards>li {
+    list-style-type: none;
+    border: solid 2px black;
+    /* height: 200px;
+    width: 200px; */
+
+    display: grid;
+
+}

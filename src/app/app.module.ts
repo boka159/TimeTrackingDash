@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CentralInfoComponent } from './central-info.component';
+import { ProfileCardComponent } from './info-components/profile-card.component';
+import { TimeTrackingCardComponent } from './info-components/time-tracking-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CentralInfoComponent,
+    ProfileCardComponent,
+    TimeTrackingCardComponent
+
   ],
   imports: [
     BrowserModule,
