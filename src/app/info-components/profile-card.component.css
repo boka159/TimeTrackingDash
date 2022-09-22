@@ -3,8 +3,8 @@
     height: 100%;
     width: auto;
 
-    /* background-color: hsl(235, 46%, 20%); */
-
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5%;
     display: grid;
 
 
@@ -15,7 +15,10 @@
     height: auto;
     width: 100%;
     overflow: hidden;
-    /* background-color: hsl(246, 80%, 60%); */
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 5%;
+    color: white;
+
 
     display: grid;
     grid-row: 1 / 4;
@@ -27,8 +30,14 @@
     width: 100%;
     overflow: hidden;
 
+
     display: grid;
     grid-row: 4;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+}
+
+.buttons-card>button {
+    margin-left: 20px;
 }

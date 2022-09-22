@@ -3,6 +3,8 @@
     height: 100%;
     width: auto;
 
+    color: white;
+
     display: grid;
 
 }
@@ -11,6 +13,8 @@
     margin: 0;
     gap: 20px;
 
+
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -18,10 +22,43 @@
 
 .info-cards>li {
     list-style-type: none;
-    border: solid 2px black;
-    /* height: 200px;
-    width: 200px; */
+    border: solid 2px white;
+    background-color: hsl(235, 46%, 20%);
+
+    border-radius: 5%;
+    overflow: hidden;
 
     display: grid;
 
+}
+
+.header {
+    border: solid 2px yellow;
+    width: auto;
+    height: 50px;
+
+}
+
+#one {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#two {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#three {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#four {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#five {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#six {
+    background-color: hsl(43, 84%, 65%);
 }

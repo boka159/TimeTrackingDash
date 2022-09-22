@@ -2,7 +2,7 @@
     border: solid 2px red;
     height: 100vh;
     width: auto;
-    /* background-color: hsl(226, 43%, 10%); */
+    background-color: hsl(226, 43%, 10%);
 
     display: flex;
     justify-content: center;
